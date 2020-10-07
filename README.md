@@ -84,7 +84,7 @@ buildTypes {
             versionNameSuffix "-debug-${getGitHash()}-${ssid.substring(ssid.length() - 5,ssid.length() - 1 )}"
             resValue "string", "app_name", "OpenTrace Debug"
             applicationIdSuffix "stg"
-        }
+        }}
 ```
 
 > Values such as STAGING_FIREBASE_UPLOAD_BUCKET, STAGING_SERVICE_UUID have been defined in gradle.properties as described above.
