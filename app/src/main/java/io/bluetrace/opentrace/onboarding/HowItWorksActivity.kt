@@ -11,8 +11,7 @@ class HowItWorksActivity : FragmentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity_howitworks)
         btn_onboardingStart.setOnClickListener {
-            val intent = Intent(this, OnboardingActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, RegisterEmailFragment::class.java))
         }
     }
 }

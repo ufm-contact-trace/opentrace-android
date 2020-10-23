@@ -20,7 +20,7 @@
             style="@style/OnboardingTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/register_number"
+            android:text="@string/register_email"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView

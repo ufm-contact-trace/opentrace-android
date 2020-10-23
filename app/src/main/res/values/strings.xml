@@ -1,22 +1,32 @@
 <resources>
-    <string name="see_connections">See connections</string>
-    <string name="stop">Stop</string>
-    <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
-    <string name="permission_write_rationale">OpenTrace needs save files for logs (Debug builds only)</string>
-    <string name="ble_not_supported">This device does not support BLE</string>
+    <string name="see_connections">Ver conexiones</string>
+    <string name="stop">Detener</string>
+    <string name="permission_location_rationale">Permita los permisos de ubicación: Google lo requiere para que su teléfono busque el Bluetooth de otro teléfono. No usamos ni almacenamos su ubicación.</string>
+    <string name="permission_write_rationale">UFMTrace necesita guardar archivos para registros (solo Debug builds)</string>
+    <string name="ble_not_supported">Este dispositivo no es compatible con Bluetooth LE</string>
 
-    <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
-    <string name="tv_onboarding_desc">If you had close contact with a COVID-19 case, we help the health authorities call you more quickly, to provide guidance and care.</string>
-    <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
-    <string name="i_want_to_help">I want to help</string>
+    <string name="tv_onboarding_title">Ayuda a detener la propagación de COVID-19 activando tu Bluetooth</string>
+    <string name="tv_onboarding_desc">Si tuviste contacto cercano con un caso de COVID-19, te notificaremos para que puedas buscar orientación y atención.</string>
+    <string name="tv_onboarding_desc_sub">Para proteger a quienes te rodean, UFMTrace también puede pedirte que compartas tus datos.</string>
+    <string name="i_want_to_help">Quiero ayudar</string>
 
-    <string name="tv_howitworks_title">How OpenTrace works</string>
-    <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
-    <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
-    <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
+    <string name="tv_howitworks_title">Cómo funciona UFMTrace</string>
+    <string name="tv_howitworks_explanation_1">Usamos señales de Bluetooth para determinar si estás cerca de otro usuario de UFMTrace</string>
+    <string name="tv_howitworks_explanation_2">Estos datos de proximidad están encriptados y almacenados solo en tu teléfono.</string>
+    <string name="tv_howitworks_explanation_3"> UFMTrace buscará tu consentimiento para cargar estos datos cuando sea necesario.</string>
+
+    <string name="register_email">Registra tu correo electrónico</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="password_reEnter">Ingresa de nuevo tu contraseña</string>
+    <string name="gotoLogin">¿Ya te registraste? Inicia Sesión</string>
+    <string name="login_email">Iniciar Sesión</string>
+    <string name="gotoRegister">¿No tienes una cuenta? Regístrate</string>
+    <string name="register">Registrarse</string>
+
+
     <string name="mobile_number">Mobile number</string>
-    <string name="register_number">Register your mobile number</string>
-    <string name="register_number_details">We\'ll contact you if you had close contact with a COVID-19 case.</string>
+    <string name="register_number_details">Te contactaremos si tienes contacto con un caso positivo de COVID-19.</string>
     <string name="register_number_family">Setting up for your family? \nUse their number instead of yours.</string>
     <string name="invalid_length">Needs to be 8-digits</string>
     <string name="invalid_number">Invalid Mobile Number</string>
@@ -31,7 +41,7 @@
     <string name="location_permissions">2. Location Permissions</string>
     <string name="battery_optimiser_opt">3. Battery Optimiser</string>
     <string name="notes">Android needs Location Permissions for Bluetooth to work. We don\'t have access to your physical location.</string>
-    <string name="proceed">Proceed</string>
+    <string name="proceed">Siguiente</string>
     <string name="continue_">Continue</string>
     <string name="get_otp">Get OTP</string>
     <string name="wrong_number"><u>Wrong Number?</u></string>

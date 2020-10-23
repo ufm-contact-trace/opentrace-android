@@ -14,16 +14,16 @@
     <color name="transparent">#00000000</color>
     <color name="black">#000000</color>
 
-    <color name="primary_blue_1">#0030A1</color>
-    <color name="primary_blue_2">#003DB5</color>
-    <color name="primary_blue_3">#004AC9</color>
-    <color name="primary_blue_4">#0057DD</color>
-    <color name="primary_blue_5">#0057DD</color>
+    <color name="primary_blue_1">#FFF33628</color>
+    <color name="primary_blue_2">#b81e04</color>
+    <color name="primary_blue_3">#de2202</color>
+    <color name="primary_blue_4">#f03c1d</color>
+    <color name="primary_blue_5">#f02b0a</color>
 
-    <color name="secondary_blue_1">#04A5FF</color>
-    <color name="secondary_blue_2">#0798EB</color>
-    <color name="secondary_blue_3">#0A83D7</color>
-    <color name="secondary_blue_4">#0D6CC3</color>
+    <color name="secondary_blue_1">#e32405</color>
+    <color name="secondary_blue_2">#ff2300</color>
+    <color name="secondary_blue_3">#f53011</color>
+    <color name="secondary_blue_4">#ba2c16</color>
 
     <color name="grey_1">#202020</color>
     <color name="grey_2">#383838</color>
