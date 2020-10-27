@@ -77,7 +77,7 @@
             style="@style/OnboardingDescNoPadding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Read our "
+            android:text="Lee nuestros "
             android:paddingLeft="24dp"
             android:layout_marginBottom="20dp"
             app:layout_constraintLeft_toLeftOf="parent"

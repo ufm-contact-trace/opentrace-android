@@ -31,7 +31,7 @@ class TOUFragment : OnboardingFragmentInterface() {
         }
     }
 
-    override fun getButtonText(): String = "I agree"
+    override fun getButtonText(): String = "Acepto"
 
     override fun onUpdatePhoneNumber(num: String) {}
 

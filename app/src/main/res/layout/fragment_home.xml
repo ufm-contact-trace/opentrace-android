@@ -30,7 +30,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/light_blue"
+                    android:background="#EBEAEA"
                     android:orientation="vertical"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
@@ -44,8 +44,7 @@
                         android:padding="16dp"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_opentrace_blue_transparent"
-                      />
+                        app:srcCompat="@drawable/ic_greyufmtrace" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_last_update"
@@ -93,9 +92,9 @@
                     android:layout_height="wrap_content"
                     android:background="@color/light_yellow"
                     android:orientation="vertical"
-                    android:paddingLeft="32dp"
-                    android:paddingRight="32dp"
-                    android:paddingBottom="20dp">
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp">
 
                     <ImageView
                         android:id="@+id/imv_incomplete"
@@ -105,36 +104,7 @@
                         android:layout_marginTop="25dp"
                         android:paddingLeft="66dp"
                         android:paddingRight="66dp"
-                        android:src="@drawable/ic_opentrace_blue_transparent" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginTop="15dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:paddingLeft="16dp"
-                        android:paddingRight="16dp"
-                        android:text="@string/setup_incomplete"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:visibility="visible" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:paddingLeft="16dp"
-                        android:paddingRight="16dp"
-                        android:text="@string/help_us_identify"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="normal"
-                        android:visibility="visible" />
+                        android:src="@drawable/ic_ufmtrace" />
 
                     <Button
                         android:id="@+id/btn_restart_app_setup"
@@ -384,7 +354,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:background="?android:selectableItemBackground"
+                    android:background="#EBEAEA"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="15dp">

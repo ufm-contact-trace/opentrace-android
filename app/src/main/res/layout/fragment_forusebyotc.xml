@@ -26,8 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#383838"
-                android:text="For use by OTC"
-                android:textSize="32sp"
+                android:text="Notifica a las personas con las que tuviste contacto"
+                android:textSize="26sp"
                 android:textFontWeight="600" />
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Use only if OTC contacts you"
+                android:text="Usa solo si diste positivo a COVID-19"
                 android:textSize="18sp"
                 android:textFontWeight="600" />
 

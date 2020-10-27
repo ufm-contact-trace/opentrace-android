@@ -23,6 +23,13 @@
             android:layout_marginBottom="10dp"
             android:src="@drawable/ic_ufmtrace" />
 
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/OnboardingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/login_title"
+            android:textStyle="bold" />
 
         <!--  Email Label -->
         <com.google.android.material.textfield.TextInputLayout
@@ -92,10 +99,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
+            android:clickable="true"
             android:gravity="center"
             android:text="@string/gotoRegister"
-            android:textSize="16sp"
-            android:clickable="true"/>
+            android:textSize="16sp" />
 
     </LinearLayout>
 </ScrollView>

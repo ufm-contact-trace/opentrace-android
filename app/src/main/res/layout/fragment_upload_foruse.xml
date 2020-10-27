@@ -16,24 +16,26 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="20dp" />
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:gravity="center_horizontal|top"
             android:layout_height="wrap_content">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_opentrace_blue_transparent" />
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_ufmtrace" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:layout_weight="2"
             android:layout_width="match_parent"
@@ -51,7 +53,7 @@
                     android:textSize="22sp"
                     android:textStyle="normal"
                     android:textAlignment="textStart"
-                    android:text="Tap 'Next' only if a contact tracer tells you to do so" />
+                    android:text="Dale click a 'Siguiente' solo si diste positivo a COVID-19" />
 
             </LinearLayout>
 
@@ -77,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textColor="@color/white"
-            android:text="Next"
+            android:text="Siguiente"
             android:textStyle="normal"
             android:textAllCaps="false" />
     </LinearLayout>

@@ -48,8 +48,6 @@ private const val BATTERY_OPTIMISER = 789
 class OnboardingActivity : FragmentActivity(),
     SetupFragment.OnFragmentInteractionListener,
     SetupCompleteFragment.OnFragmentInteractionListener,
-    RegisterNumberFragment.OnFragmentInteractionListener,
-    OTPFragment.OnFragmentInteractionListener,
     TOUFragment.OnFragmentInteractionListener {
 
     private var TAG: String = "OnboardingActivity"
@@ -59,7 +57,7 @@ class OnboardingActivity : FragmentActivity(),
     private var resendingCode = false
 
     private val functions = FirebaseFunctions.getInstance(BuildConfig.FIREBASE_REGION)
-    private var credential: PhoneAuthCredential by Delegates.notNull()
+    /*private var credential: PhoneAuthCredential by Delegates.notNull()
     private var verificationId: String by Delegates.notNull()
     private var resendToken: PhoneAuthProvider.ForceResendingToken by Delegates.notNull()
     private val phoneNumberVerificationCallbacks =
@@ -114,7 +112,7 @@ class OnboardingActivity : FragmentActivity(),
                 }
 
             }
-        }
+        }*/
 
     private fun enableFragmentbutton() {
         var interfaceObject: OnboardingFragmentInterface? = pagerAdapter?.getItem(pager.currentItem)
@@ -135,7 +133,7 @@ class OnboardingActivity : FragmentActivity(),
         alert.show()
     }
 
-    private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
+   /* private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
         FirebaseAuth.getInstance().signInWithCredential(credential)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
@@ -164,7 +162,7 @@ class OnboardingActivity : FragmentActivity(),
                 }
             }
     }
-
+*/
     private fun getTemporaryID(): Task<HttpsCallableResult> {
         return TempIDManager.getTemporaryIDs(this, functions)
             .addOnCompleteListener {
@@ -178,7 +176,6 @@ class OnboardingActivity : FragmentActivity(),
                             TAG,
                             "Failed to retrieve HandShakePin ${it.exception?.message}"
                         )
-                        updateOTPError(getString(R.string.verification_failed))
                         onboardingActivityLoadingProgressBarFrame.visibility = View.GONE
                     }
                 }
@@ -494,7 +491,7 @@ class OnboardingActivity : FragmentActivity(),
         pager.currentItem = page
         pagerAdapter!!.notifyDataSetChanged()
     }
-
+/*
     fun requestForOTP(phoneNumber: String) {
         onboardingActivityLoadingProgressBarFrame.visibility = View.VISIBLE
         speedUp = false
@@ -551,7 +548,7 @@ class OnboardingActivity : FragmentActivity(),
     private fun updateOTPError(error: String) {
         val onboardingFragment: OnboardingFragmentInterface = pagerAdapter!!.getItem(1)
         onboardingFragment.onError(error)
-    }
+    }*/
 
     override fun onFragmentInteraction(uri: Uri) {
         CentralLog.d(TAG, "########## fragment interaction: $uri")
@@ -574,7 +571,7 @@ class OnboardingActivity : FragmentActivity(),
                 1 -> return SetupFragment()
                 2 -> return SetupCompleteFragment()
                 else -> {
-                    RegisterNumberFragment() //HAY QUE CAMBIARLO
+                    SetupFragment() //HAY QUE CAMBIARLO
                 }
             }
         }

@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="15dp">
 
             <LinearLayout
                 android:id="@+id/enterPinFragmentBackButtonLayout"
@@ -49,13 +49,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:text="STEP 2" />
+                android:text="PASO 2" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Enter PIN to upload"
+                android:text="Ingresa el PIN"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Invalid PIN"
+                android:text="PIN INVÁLIDO"
                 android:textColor="#C20000"
                 android:textSize="16sp"
                 android:visibility="invisible" />
@@ -121,7 +121,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:background="@drawable/gradient"
-            android:text="Upload data"
+            android:text="Subir datos"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textStyle="normal" />

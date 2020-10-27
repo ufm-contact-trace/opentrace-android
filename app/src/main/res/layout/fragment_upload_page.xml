@@ -26,17 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="For use by OTC"
-                android:textSize="32sp"
-                android:textFontWeight="600" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Upload data for contact tracing"
-                android:textSize="18sp"
+                android:text="Notifica a las personas con las que tuviste contacto"
+                android:textSize="28sp"
                 android:textFontWeight="600" />
 
         </LinearLayout>
